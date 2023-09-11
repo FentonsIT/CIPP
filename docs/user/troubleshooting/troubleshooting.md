@@ -173,11 +173,15 @@ This occurs when the app has exists for more than 2 years and requires a new cer
 
 <!---->
 
-* Edit lines 4 so it has your function name at the end of it
+* Edit line 4 so it has your function name at the end of it
 
 <!---->
 
-* Edit Line 29 to your repository secret name noted down in step 2 above
+* Edit line 26 so it has your function name
+ 
+<!---->
+
+* Edit line 29 to your repository secret name noted down in step 2 above
 
 </details>
 
