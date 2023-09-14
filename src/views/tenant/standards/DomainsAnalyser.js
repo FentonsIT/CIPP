@@ -275,8 +275,7 @@ const DomainsAnalyser = () => {
       showAllTenantSelector={true}
       datatable={{
         filterlist:[
-          {filterName: 'IsInitial onmicrosoft.com', filter: '"IsInitial":true' },
-          {filterName: 'Exclude onmicrosoft.com', filter: '"IsInitial":false' },
+          { filterName: 'Exclude onmicrosoft.com', filter: '"IsInitial":false' },
         ],
         path: `/api/DomainAnalyser_List`,
         params: { tenantFilter: currentTenant.defaultDomainName },
