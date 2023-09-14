@@ -274,7 +274,7 @@ const DomainsAnalyser = () => {
       tenantSelector={true}
       showAllTenantSelector={true}
       datatable={{
-        filterlist:[
+        filterlist: [
           { filterName: 'Exclude onmicrosoft.com', filter: '"IsInitial":false' },
         ],
         path: `/api/DomainAnalyser_List`,
