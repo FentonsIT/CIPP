@@ -274,9 +274,6 @@ const DomainsAnalyser = () => {
       tenantSelector={true}
       showAllTenantSelector={true}
       datatable={{
-        filterlist:[
-          {filterName: 'IsFallback', filter: '"IsInitial":true' },
-        ],
         path: `/api/DomainAnalyser_List`,
         params: { tenantFilter: currentTenant.defaultDomainName },
         columns,
